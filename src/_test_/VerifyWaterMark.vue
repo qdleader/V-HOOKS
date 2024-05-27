@@ -1,7 +1,7 @@
 <script lang="tsx" setup>
 // import { useWatermark } from '@/lib/useWatermark/index';
 import { onMounted } from 'vue';
-import { useWatermark } from '../lib/useWaterMarkHook/index';
+import { useWatermark } from '../lib/useWaterMark/index';
 const { setWatermark: setGlobalWatermark } = useWatermark();
 onMounted(() => {
   console.log('mounted');
