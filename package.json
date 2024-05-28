@@ -11,7 +11,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^20.12.12",
     "@vitejs/plugin-vue": "^5.0.4",
+    "easyqrcodejs": "^4.6.1",
     "lodash-es": "^4.17.21",
     "path": "^0.12.7",
     "vite": "^5.2.10",
