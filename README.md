@@ -43,7 +43,7 @@ const { text, isSupported, copy } = useClipboard();
 ```ts
 <script lang="tsx" setup>
 import { onMounted, ref } from 'vue';
-import { useQRCode } from 'v-hookss';
+import { useQRCode } from 'v-hooks';
 import logo from './1.png';
 const text = ref<string>('https://www.baidu.com/');
 
